@@ -1,0 +1,266 @@
+
+.chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chat__border{
+    border: 1px solid #111;
+    margin-top: 50px;
+    border-radius: 3px;
+}
+
+.chat__header{
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.chat__body{
+    margin-bottom: 15px;
+}
+
+.chat__body form{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__body form input[type='text']{
+    margin: 15px;
+    width: 250px;
+    outline: none;
+    padding: 8px 5px;
+    border: 1px solid #111;
+    border-radius: 3px;
+}
+
+.chat__body button{
+    width: 100px;
+    background-color: white;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.chat__body button:hover{
+    background-color: darkslateblue;
+    color: white;
+}
+
+/* input bar */
+
+.infoBar{
+    display: flex;
+    background-color: #2979FF;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px 4px 0 0;
+    height: 60px;
+    width: 30%;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.leftContainer{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    color: white;
+}
+.rightContainer{
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.rightContainer img{
+    width: 20px;
+}
+.leftContainer h3{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.container{
+    padding: 100px;
+    background-color: white;
+    width: 210px;
+    margin-left: 450px;
+}
+
+.form{
+    display: flex;
+    border-top: 2px solid #D3D3D3;
+    margin-left: 450px;
+    width: 30%;
+}
+
+.input{
+    border: none;
+    border-radius: 0;
+    padding: 5px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+.sendButton{
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #2979FF;
+    padding: 20px;
+    display: inline-block;
+    border: none;
+}
+
+.messageBox1{
+    background: #F3F3F3;
+    color: white;
+    display: inline-block;
+    max-width: 33.45%;
+    margin-left: 380px;
+}
+.messageBox{
+    background: #F3F3F3;
+    color: white;
+    display: inline-block;
+    max-width: 33.45%;
+    margin-right: 435px;
+}
+.messageText{
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+}
+.messageText img{
+    vertical-align: middle;
+}
+.messageContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5.1%;
+}
+.sentText{
+    display: flex;
+}
+.pr-10{
+    padding-right: 10px;
+    float: left;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #DC143C;
+}
+.justifyStart{
+    justify-content: flex-start;
+}
+.justifyEnd{
+    justify-content: flex-end;
+}
+.colorWhite{
+    color: white;
+}
+.colorDark{
+    color: #353535;
+}
+.backgroundBlue{
+    background: #ddd;
+}
+.backgroundLight{
+    background: #F3F3F3;
+}
+.pl-10{
+    color: #DC143C;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+/* emr home page */
+
+.emr nav .justifyLeft{
+    float: left;
+}
+
+.emr nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.emr nav .justifyRight{
+    float: right;
+    display: flex;
+    margin-right: 20px;
+}
+
+.emr nav{
+    background-color: #111;
+    color: white;
+    padding: 1px 3px;
+}
+
+.emr nav ul .justifyRight ol{
+    border-right: 1px solid #ddd;
+    padding-right: 5px;
+}
+
+.modules{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.modules img{
+    width: 140px;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.modules ul{
+    list-style: none;
+    display: flex;
+}
+
+.modules ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* login */
+
+.emr__login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.emr__login form input[type="text"],[type="password"] {
+    outline: none;
+    padding: 8px 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #111;
+}
+
+.emr__login form input[type="submit"]{
+    outline: none;
+    border: 1px solid #2979FF;
+    background-color: #2979FF;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
